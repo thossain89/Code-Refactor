@@ -10,6 +10,29 @@ body {
     
 }
 
+/* As h2 and h3 is following same styling for their respective tag, classes are taken out and made into 1 
+styling type each all h2 and h3 tags.*/
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+h3 {
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -22,8 +45,6 @@ body {
     font-size: 48px;
     color: #d9dcd6;
 }
-
-
 
 .header nav {
     padding-top: 15px;
@@ -42,21 +63,31 @@ body {
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
+/* Image links take out from here and it was implemented through html with alt tag*/
 .team {
+    
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
     background-size: cover;
     background-position: center;
+}
+
+/*Instead of three different class only 1 is used to define style for all the similar styles for section*/
+.section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*single class used for similar styling properties*/
+.section-image {
+    
+    max-height: 200px;
+
 }
 
 .float-left {
@@ -75,6 +106,7 @@ p {
     margin-left: 20px;
 }
 
+/* new class aside is created to make it easy to understand the styling for the sidebar*/
 .aside {
     margin-right: 20px;
     padding: 20px;
@@ -86,48 +118,17 @@ p {
     background-color: #2589bd;
 }
 
+/*class "benefit" is created to reduce number of classes with similar attributes for sidebar*/
 .benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
- h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
+
+/*one class is used to style all the pictures on sidebar with similar properties*/
 .benefit-img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
-
-.section {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.section-image {
-    max-height: 200px;
-
-}
-
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 .footer {
