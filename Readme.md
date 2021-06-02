@@ -33,7 +33,8 @@ Next major changes were made in Html classes and CSS style sheet. The old code w
 <img src="./Assets/images/old_css.png" alt= "old CSS" style="height: 300px; width:400px;"/>  
 
 ## After  
-<img src="./Assets/images/new_css.png" alt= "New CSS" style="height: 200px; width:400px;"/>  
+<img src="./Assets/images/new_css.jpg" alt="New CSS" style="height:300px; width:400px;"/>  
+
 
 Standard CSS styling hierarchy is used which was not previously used. The Cascade style now starts from universal selector and goes down to more specific selectors. Comments are used through out the CSS style sheet so it explains the section of html its affecting and how its affecting.  
 After the class change in html and reduced code in css the website loads faster on browser.   
