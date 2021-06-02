@@ -43,7 +43,10 @@ p {
 .header h1 {
     display: inline-block;
     font-size: 48px;
-    color: #d9dcd6;
+}
+/* More brighter colour added to bring an impact on the heading*/
+.header h1 .seo {
+    color: #e2d139;
 }
 
 .header nav {
@@ -62,7 +65,6 @@ p {
     display: inline-block;
     margin-left: 25px;
 }
-
 /* Image links take out from here and it was implemented through html with alt tag*/
 .team {
     
